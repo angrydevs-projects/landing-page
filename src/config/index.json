@@ -1,153 +1,150 @@
 {
   "company": {
-    "name": "React landing page 2021",
-    "logo": "/assets/images/logo.png"
+    "name": "AngryDevs",
+    "logo": "/assets/images/angrydevs-logo.png"
   },
   "navigation": [
     {
-      "name": "Product",
-      "href": "product"
+      "name": "Our Arsenal",
+      "href": "arsenal"
     },
     {
-      "name": "Features",
-      "href": "features"
-    },
-
-    {
-      "name": "Pricing",
-      "href": "pricing"
+      "name": "Battle Tactics",
+      "href": "tactics"
     },
     {
-      "name": "About",
+      "name": "Our Flock",
+      "href": "team"
+    },
+    {
+      "name": "Nest",
       "href": "about"
     }
   ],
   "callToAction": {
-    "text": "Get started",
+    "text": "Launch!",
     "href": "#"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "AngryDevs",
+    "subtitle": "We're not angry, we're passionate!",
+    "description": "At AngryDevs, we tackle complex IT challenges with the precision of a well-aimed bird. Based in Vancouver, our flock of expert developers turns frustrating problems into simple solutions. We may look grumpy, but we're just intensely focused on delivering top-notch results that'll make you smile.",
+    "img": "/assets/images/angrydevs-team.jpeg",
     "primaryAction": {
-      "text": "Get started",
+      "text": "Catapult Your Project",
       "href": "#"
     },
     "secondaryAction": {
-      "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "text": "Squawk at Us",
+      "href": "mailto:info@angrydevs.com?subject=Ready to slingshot my project!"
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "Our Secret Sauce",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "Precision Coding Catapult",
+        "description": "Just like launching the perfect bird, our coding process is all about precision and impact. We carefully aim our expertise at your project's pain points, ensuring maximum effectiveness with minimal fluff.",
+        "img": "/assets/images/coding-catapult.jpg"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "Feather-light Solutions",
+        "description": "Our solutions may be powerful, but they're also surprisingly light. We craft elegant, efficient code that soars through challenges without weighing down your systems. It's not about being angry, it's about being smart!",
+        "img": "/assets/images/feather-light-solution.jpg"
       }
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "title": "Our High-Flying Tech Stack",
+    "subtitle": "Weaponizing the latest technologies for your success!",
+    "description": "At AngryDevs, we don't just use technologies; we wield them like finely tuned slingshots. Our arsenal is packed with the most powerful tools in the industry, ensuring your project has the firepower it needs to succeed in the digital battlefield.",
     "items": [
       {
         "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
+        "description": "Our go-to frontend launcher, perfect for catapulting engaging user interfaces into action.",
         "icon": "/assets/images/react.png"
       },
       {
         "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
+        "description": "Like precision feathers on our birds, Tailwind helps us streamline and beautify with minimal effort.",
         "icon": "/assets/images/tailwindcss.svg"
       },
       {
         "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
+        "description": "The launchpad for our React applications, providing the boost needed for server-side rendering and optimal performance.",
         "icon": "/assets/images/nextjs.svg"
       },
       {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
+        "name": "TypeScript",
+        "description": "Our secret weapon for keeping our code flock in formation, ensuring type safety and reducing bugs.",
         "icon": "/assets/images/ts.png"
       }
     ]
   },
-  "pricing": {
-    "title": "Pricing",
-    "items": [
+  "team": {
+    "title": "Meet Our Flock",
+    "subtitle": "The angry faces behind the brilliant code",
+    "description": "Don't let our grumpy looks fool you - we're a passionate bunch of tech enthusiasts ready to tackle any challenge. Each AngryDev brings unique skills to the nest, ensuring we have the right bird for every job.",
+    "members": [
       {
-        "name": "Free",
-        "price": "$0",
-        "priceDetails": "for one user",
-        "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
-        ]
+        "name": "Red",
+        "role": "Founder & Lead Developer",
+        "bio": "Our fearless leader with a fiery passion for clean code and innovative solutions.",
+        "image": "/assets/images/team/red.jpg"
       },
       {
-        "name": "Pro",
-        "price": "$15",
-        "priceDetails": "per user",
-
-        "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
-        ]
+        "name": "Chuck",
+        "role": "Frontend Speedster",
+        "bio": "Lightning-fast at crafting sleek user interfaces that leave users in awe.",
+        "image": "/assets/images/team/chuck.jpg"
       },
       {
-        "name": "Enterprise",
-        "price": "$29",
-        "priceDetails": "per user",
-        "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
-        ]
+        "name": "Bomb",
+        "role": "Backend Powerhouse",
+        "bio": "Specializes in explosive performance optimizations and rock-solid server architectures.",
+        "image": "/assets/images/team/bomb.jpg"
+      },
+      {
+        "name": "Matilda",
+        "role": "UX/UI Designer",
+        "bio": "Has an eye for detail and a talent for creating user experiences that soar above the rest.",
+        "image": "/assets/images/team/matilda.jpg"
+      },
+      {
+        "name": "Terence",
+        "role": "QA & Testing Guru",
+        "bio": "Our resident perfectionist, ensuring every line of code meets our sky-high standards.",
+        "image": "/assets/images/team/terence.jpg"
       }
     ]
   },
   "about": {
     "sections": [
       {
-        "name": "Something",
+        "name": "Our Origin Story",
         "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "content": "Born from the frustration of complicated IT solutions, AngryDevs emerged in Vancouver with a mission: to tackle tech challenges head-on, with the precision and power of a well-aimed angry bird. We may look grumpy, but that's just our game face!"
       },
       {
-        "name": "Something",
+        "name": "The AngryDevs Difference",
         "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "content": "What sets us apart? It's our unique blend of passion, precision, and a dash of controlled chaos. We approach each project like a new level in a game - with strategy, skill, and an unwavering determination to crush it."
       },
       {
-        "name": "Something",
+        "name": "Our Flock",
         "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "content": "Our team isn't just a group of developers; we're a flock of tech enthusiasts, problem-solvers, and code-slingers. Each AngryDev brings a unique skill to the nest, ensuring we have the right bird for every job."
       },
       {
-        "name": "Something",
+        "name": "Community Involvement",
         "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "content": "We're not just about knocking down technical obstacles; we're also about building up our community. AngryDevs is proud to participate in local tech meetups, mentor budding developers, and contribute to open-source projects."
       }
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "github": "https://github.com/angrydevs",
+      "twitter": "https://twitter.com/angrydevs",
+      "linkedin": "https://www.linkedin.com/company/angrydevs"
     }
   }
 }
