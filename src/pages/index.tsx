@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
+import Favicon from 'react-favicon';
 
 import About from '../components/About';
 import Analytics from '../components/Analytics';
@@ -10,10 +12,15 @@ import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 // import Pricing from '../components/Pricing';
 import Product from '../components/Product';
+import config from '../config/index.json';
 
 const App = () => {
+  useEffect(() => {
+    document.title = config.company.name;
+  }, []);
   return (
     <div className={`bg-background grid gap-y-16 overflow-hidden`}>
+      <Favicon url={config.company.logo} />
       <div className={`relative bg-background`}>
         <div className="max-w-7xl mx-auto">
           <div
